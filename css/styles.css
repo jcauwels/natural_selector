@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 18, 2014, 1:35:10 PM
+    Author     : jcauw_000
+*/
+body {
+    color: rgb(78,33,0);
+    background-color: rgb(253,248,180);
+}
+.content {
+    width: 960px;
+    height: 600px;
+    margin: 50px auto;
+    font-family: "Palatino Linotype", Arial, sans-serif;
+    font-size: .9em;
+    position: relative;
+}
+
+.content img {
+    position: absolute;
+    left: 130px;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: Baskerville, serif;
+    position: absolute;
+    top: 350px;
+    }
+    
+h2 {
+     text-align: center;
+     width: 100%;
+     font-size: 1.1em;
+     font-family: Baskerville, serif;
+     position: absolute;
+     top: 385px;
+     text-transform: uppercase;
+     font-style: italic;
+     cursor: pointer;
+}
+
+.power {
+    font-size:.75em;
+    vertical-align: super;
+}
+
+#results {
+    position: absolute;
+    top:  50px;
+    width: 800px;
+    left: 80px;
+}
+
